@@ -63,7 +63,7 @@ export default function Navbar() {
           <a
             href="/resume.pdf"
             target="_blank"
-            className="px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-semibold hover:bg-blue-600 transition"
+            className="px-4 py-2 rounded-xl bg-cyan-400 text-black text-sm font-semibold hover:bg-cyan-500 transition"
           >
             Resume
           </a>
@@ -89,7 +89,7 @@ export default function Navbar() {
                 href={`#${link.id}`}
                 onClick={() => setOpen(false)} // ✅ ADDED: close after click
                 className={`text-sm font-medium transition ${
-                  active === link.id ? "text-blue-400" : "text-white/80"
+                  active === link.id ? "text-cyan-400" : "text-white/80"
                 } hover:text-white`}
               >
                 {link.label}
@@ -99,7 +99,7 @@ export default function Navbar() {
             <a
               href="/resume.pdf"
               target="_blank"
-              className="w-fit px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-semibold hover:bg-blue-600 transition"
+              className="w-fit px-4 py-2 rounded-xl bg-cyan-400 text-black text-sm font-semibold hover:bg-cyan-500 transition items-center"
             >
               Resume
             </a>

@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="mt-6 flex gap-4 flex-wrap">
             <a
               href="#projects"
-              className="px-6 py-3 rounded-2xl bg-blue-500 font-semibold hover:bg-blue-600 transition"
+              className="px-6 py-3 rounded-2xl bg-cyan-500 font-semibold hover:bg-cyan-600 transition"
             >
               View Projects
             </a>

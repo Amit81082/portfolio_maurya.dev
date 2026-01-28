@@ -20,16 +20,7 @@ export default function SocialLinks() {
           key={index}
           href={item.link}
           target="_blank"
-          className="w-12 h-12
-            flex items-center justify-center
-            rounded-full
-            border border-cyan-400
-            text-cyan-400
-            transition-all duration-300
-            hover:bg-cyan-400
-            hover:text-black
-            hover:shadow-[0_0_20px_#22d3ee]
-          "
+          className="w-12 h-12 flex items-center justify-center rounded-full border border-cyan-400 text-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_20px_#22d3ee]"
         >
           <span className="text-lg">{item.icon}</span>
         </a>

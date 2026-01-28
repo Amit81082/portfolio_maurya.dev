@@ -1,26 +1,30 @@
 "use client";
+import Image from "next/image";
 
 const projects = [
   {
     title: "URL Shortener",
-    desc: "Shorten links with login and dashboard.",
+    desc: "Convert long URLs into short links, store them in database.",
     tech: ["Next.js", "MongoDB", "Tailwind"],
-    live: "#",
-    code: "#",
+    live: "https://url-shortner-86rw.vercel.app/",
+    code: "https://github.com/Amit81082/Url_shortner",
+    image: "/projects/urlShortner.png",
   },
   {
-    title: "Portfolio Website",
-    desc: "Personal portfolio with modern UI.",
-    tech: ["Next.js", "Tailwind"],
-    live: "#",
-    code: "#",
+    title: "Image Search Engine",
+    desc: "Full-stack MERN application to search images from Unsplash with login via Google and GitHub.",
+    tech: ["React", "Express.js", "MongoDB", "unsplash"],
+    live: "https://mern-image-search-pied.vercel.app/",
+    code: "https://github.com/Amit81082/Mern-Image-Search",
+    image: "/projects/image-search.png",
   },
   {
-    title: "E-commerce UI",
-    desc: "Product listing and cart UI.",
+    title: "Password Locker",
+    desc: "Store your passwords in a secure way.",
     tech: ["React", "Tailwind"],
-    live: "#",
-    code: "#",
+    live: "https://password-locker-e550f5.netlify.app/",
+    code: "https://github.com/Amit81082/password-locker",
+    image: "/projects/password-locker.png",
   },
 ];
 
@@ -39,8 +43,13 @@ export default function Projects() {
               className="border border-cyan-400/30 rounded-2xl overflow-hidden hover:shadow-[0_0_25px_#22d3ee] transition"
             >
               {/* 👉 Image placeholder */}
-              <div className="h-40 bg-cyan-400/10 flex items-center justify-center text-white/50">
-                Screenshot
+              <div className="relative w-full h-48">
+                <Image
+                  src={p.image}
+                  alt={p.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <div className="p-5">
@@ -62,13 +71,17 @@ export default function Projects() {
                 {/* 👉 Actions */}
                 <div className="flex gap-4">
                   <a
+                    target="_blank"
                     href={p.live}
+                    rel="noopener noreferrer"
                     className="px-4 py-2 text-sm rounded-xl bg-cyan-400 text-black font-semibold hover:opacity-90 transition"
                   >
                     Live
                   </a>
                   <a
+                    target="_blank"
                     href={p.code}
+                    rel="noopener noreferrer"
                     className="px-4 py-2 text-sm rounded-xl border border-white/20 hover:bg-white/10 transition"
                   >
                     Code

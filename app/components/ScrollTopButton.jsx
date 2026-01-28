@@ -17,7 +17,7 @@ export default function ScrollTopButton() {
     show && (
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-6 right-6 bg-sky-500 text-white p-3 rounded-full shadow-lg hover:bg-sky-600 transition"
+        className="fixed bottom-6 right-6 bg-sky-500 text-black p-3 rounded-full shadow-lg hover:bg-sky-600 transition"
       >
         ↑
       </button>
