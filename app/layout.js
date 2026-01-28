@@ -28,7 +28,7 @@ export const metadata = {
     title: "Amit Maurya | Frontend Developer",
     description:
       "Frontend Developer building modern web apps using React & Next.js",
-    url: "https://yourdomain.com",
+    url: "https://portfolio-maurya-dev.vercel.app/",
     siteName: "Amit Maurya Portfolio",
     images: [
       {
