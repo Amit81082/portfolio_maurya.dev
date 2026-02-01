@@ -4,7 +4,7 @@ import Image from "next/image";
 const projects = [
   {
     title: "URL Shortener",
-    desc: "Convert long URLs into short links, store them in database.",
+    desc: "Convert long URLs into short links, store them in database. And Ya, with proper authentication.",
     tech: ["Next.js", "MongoDB", "Tailwind"],
     live: "https://url-shortner-86rw.vercel.app/",
     code: "https://github.com/Amit81082/Url_shortner",
