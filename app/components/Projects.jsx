@@ -3,6 +3,17 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Cartify E-Commerce",
+    desc: "Full-stack ecommerce app with cart, Razorpay payment, order management, and secure checkout flow.",
+
+    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
+
+    live: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
+    code: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
+
+    image: "/projects/cartify.png", // 👉 ADD IMAGE IN PUBLIC
+  },
+  {
     title: "URL Shortener",
     desc: "Convert long URLs into short links, store them in database. And Ya, with proper authentication.",
     tech: ["Next.js", "MongoDB", "Tailwind"],
