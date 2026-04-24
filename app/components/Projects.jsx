@@ -3,6 +3,19 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Realtime Chat App",
+
+    desc: "Full-stack realtime chat app with instant messaging, image sharing, socket-based communication, and secure authentication.",
+
+    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Socket.io"],
+
+    live: "https://chat-app-nu-seven-97.vercel.app/",
+
+    code: "https://github.com/Amit81082/Chat-app",
+
+    image: "/projects/ChatApp.png",
+  },
+  {
     title: "Cartify E-Commerce",
     desc: "Full-stack ecommerce app with cart, Razorpay payment, order management, and secure checkout flow.",
 
