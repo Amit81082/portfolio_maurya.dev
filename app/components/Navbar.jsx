@@ -42,7 +42,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         {/* 👉 Logo */}
         <a href="#home" className="text-white font-bold text-xl">
-          Amit<span className="text-blue-400">.</span>
+          Amit<span className="text-blue-400">.M</span>
         </a>
 
         {/* 👉 Desktop Links */}

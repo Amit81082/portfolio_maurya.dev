@@ -3,6 +3,28 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Neftlix Clone",
+
+    desc: "Full-stack Neftlix clone with authentication, movie streaming, protected profiles, dynamic billboard, and responsive modern UI.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "SWR",
+      "Zustand",
+    ],
+
+    live: "https://neftlix-calone-oxhp.vercel.app/",
+
+    code: "https://github.com/Amit81082/Neftlix-calone",
+
+    image: "/projects/NeftlixClone.png",
+  },
+  {
     title: "Realtime Chat App",
 
     desc: "Full-stack realtime chat app with instant messaging, image sharing, socket-based communication, and secure authentication.",
