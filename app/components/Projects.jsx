@@ -3,6 +3,28 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Twitter Clone",
+
+    desc: "Full-stack Twitter/X clone with authentication, tweet creation, comments, likes, follow system, notifications, profile management, and responsive modern UI.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "SWR",
+      "Axios",
+    ],
+
+    live: "https://twi-tter-calone.vercel.app/",
+
+    code: "https://github.com/Amit81082/twi-tter-calone",
+
+    image: "/projects/TwitterClone.png",
+  },
+  {
     title: "Neftlix Clone",
 
     desc: "Full-stack Neftlix clone with authentication, movie streaming, protected profiles, dynamic billboard, and responsive modern UI.",
