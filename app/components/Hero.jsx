@@ -4,13 +4,18 @@ import Typed from "typed.js";
 import Image from "next/image";
 import SocialLinks from "./SocialLinks";
 
-
 export default function Hero() {
   const textRef = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(textRef.current, {
-      strings: ["Frontend Developer", "React Developer", "Next.js Developer"],
+      // 🔥 CHANGED
+      strings: [
+        "Full Stack Developer",
+        "Next.js Developer",
+        "TypeScript Developer",
+        "React Developer",
+      ],
       typeSpeed: 60,
       backSpeed: 40,
       loop: true,
@@ -27,19 +32,32 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center w-full">
         {/* 👉 LEFT */}
         <div>
-          <h3 className="text-white/70 text-lg ">Hello, it's Me</h3>
+          {/* 🔥 CHANGED */}
 
-          <h1 className="text-4xl md:text-6xl font-extrabold mt-2">
-            Amit Maurya
+          <p className="text-cyan-400 font-medium tracking-wider uppercase">
+            Full Stack Developer
+          </p>
+
+          <h1
+            className={`text-4xl md:text-5xl font-extrabold mt-4 leading-tight`}
+          >
+            Amit <span className="text-cyan-400">Maurya</span>
           </h1>
 
-          <h3 className="text-2xl mt-2">
-            And I'm a <span ref={textRef} className="text-sky-400"></span>
-          </h3>
+          <h2 className="text-xl md:text-2xl mt-4 text-white/90">
+            Building Modern Web Applications
+          </h2>
 
-          <p className="mt-5 text-white/70 max-w-xl">
-            I build modern, responsive, and fast web applications using React,
-            Next.js, and Tailwind CSS.
+          <div className="mt-3 text-lg">
+            <span ref={textRef} className="text-cyan-400 font-semibold"></span>
+          </div>
+
+          {/* 🔥 CHANGED */}
+
+          <p className="mt-6 text-white/70 max-w-xl leading-relaxed">
+            I build scalable, responsive, and production-ready web applications
+            using React, Next.js, TypeScript, Node.js, MongoDB, Prisma, and
+            Tailwind CSS.
           </p>
 
           {/* 👉 CTA */}
@@ -48,7 +66,7 @@ export default function Hero() {
               href="#projects"
               className="px-6 py-3 rounded-2xl bg-cyan-500 font-semibold hover:bg-cyan-600 transition"
             >
-              View Projects
+              Explore Projects
             </a>
 
             <a
@@ -64,14 +82,17 @@ export default function Hero() {
         </div>
 
         {/* 👉 RIGHT (IMAGE PLACEHOLDER) */}
-        <div className="flex justify-center">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-500/20 border border-blue-400/30 flex items-center justify-center">
+        {/* 🔥 CHANGED */}
+
+        <div className="relative">
+          <div className="absolute inset-0 rounded-full bg-cyan-500/20 blur-3xl animate-pulse" />
+
+          <div className="relative w-72 h-72 md:w-95 md:h-95 rounded-full p-1 bg-linear-to-r from-cyan-400 via-blue-500 to-cyan-400">
             <Image
               src="/my_image.jpeg"
               alt="Amit Maurya"
-              width={1080}
-              height={1920}
-              className="w-full h-full rounded-full"
+              fill
+              className=" rounded-full object-cover border-4 border-black "
             />
           </div>
         </div>

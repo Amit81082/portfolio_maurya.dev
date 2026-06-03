@@ -11,10 +11,13 @@ export default function About() {
           About <span className="text-cyan-400">Me</span>
         </h2>
 
-        {/* 👉 Intro */}
-        <p className="text-white/70 max-w-2xl mb-12">
-          I’m a Frontend Developer focused on building clean, responsive, and
-          performance-driven web applications using React and Next.js.
+        {/* 👉 Updated Intro */}
+        <p className="text-white/70 max-w-3xl mb-12 leading-relaxed">
+          I'm a Full Stack Web Developer focused on building modern, responsive,
+          and scalable web applications using Next.js, React, TypeScript,
+          Tailwind CSS, Node.js, Express, MongoDB, Prisma, and NextAuth. I enjoy
+          turning ideas into real-world products with clean UI, secure
+          authentication, and optimized performance.
         </p>
 
         {/* 👉 Cards */}
@@ -22,30 +25,46 @@ export default function About() {
           {/* 👉 Card 1 */}
           <div className="border border-cyan-400/30 rounded-2xl p-6 hover:shadow-[0_0_25px_#22d3ee] transition">
             <FaCode className="text-cyan-400 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Clean Code</h3>
+
+            {/* 🔥 Updated */}
+            <h3 className="text-xl font-semibold mb-2">
+              Full Stack Development
+            </h3>
+
+            {/* 🔥 Updated */}
             <p className="text-white/70">
-              I write readable, reusable, and maintainable code following modern
-              best practices.
+              Building complete applications using Next.js, React, TypeScript,
+              Node.js, Express, MongoDB, Prisma, and REST APIs.
             </p>
           </div>
 
           {/* 👉 Card 2 */}
           <div className="border border-cyan-400/30 rounded-2xl p-6 hover:shadow-[0_0_25px_#22d3ee] transition">
             <FaLaptopCode className="text-cyan-400 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Real Projects</h3>
+
+            {/* 🔥 Updated */}
+            <h3 className="text-xl font-semibold mb-2">Real World Projects</h3>
+
+            {/* 🔥 Updated */}
             <p className="text-white/70">
-              I build complete real-world projects with authentication,
-              dashboards, and clean UI.
+              Developed projects like Twitter Clone, Netflix Clone, Realtime
+              Chat App, authentication systems, dashboards, and modern portfolio
+              websites.
             </p>
           </div>
 
           {/* 👉 Card 3 */}
           <div className="border border-cyan-400/30 rounded-2xl p-6 hover:shadow-[0_0_25px_#22d3ee] transition">
             <FaRocket className="text-cyan-400 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Always Improving</h3>
+
+            {/* 🔥 Updated */}
+            <h3 className="text-xl font-semibold mb-2">Continuous Growth</h3>
+
+            {/* 🔥 Updated */}
             <p className="text-white/70">
-              I continuously learn new technologies and improve my
-              problem-solving skills.
+              Passionate about learning modern technologies, improving
+              problem-solving skills, and building production-ready applications
+              with industry best practices.
             </p>
           </div>
         </div>

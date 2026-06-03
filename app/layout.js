@@ -1,6 +1,15 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { Inter, Space_Grotesk } from "next/font/google";
+
+export const inter = Inter({
+  subsets: ["latin"],
+});
+
+export const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,7 +63,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white">
+      <body className={` ${inter.className} bg-black text-white `} >
         <Navbar />
         <main className="pt-16">{children}</main>
       </body>
