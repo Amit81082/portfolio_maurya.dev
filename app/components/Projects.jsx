@@ -3,6 +3,29 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Rentopia",
+
+    desc: "Full-stack Airbnb-inspired rental platform with authentication, property listings, reservations, favorites, trip management, location search, maps integration, and responsive modern UI.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "Zustand",
+      "Cloudinary",
+      "Axios",
+    ],
+
+    live: "https://rentopia-ysvy.vercel.app/",
+
+    code: "https://github.com/Amit81082/Rentopia",
+
+    image: "/projects/Rentopia.png",
+  },
+  {
     title: "Twitter Clone",
 
     desc: "Full-stack Twitter/X clone with authentication, tweet creation, comments, likes, follow system, notifications, profile management, and responsive modern UI.",
