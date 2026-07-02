@@ -11,7 +11,7 @@ export default function Hero() {
     const typed = new Typed(textRef.current, {
       // 🔥 CHANGED
       strings: [
-        "Frontend Developer",
+        "Full-Stack Developer",
         "Next.js Developer",
         "TypeScript Developer",
         "React Developer",
@@ -35,7 +35,7 @@ export default function Hero() {
           {/* 🔥 CHANGED */}
 
           <p className="text-cyan-400 font-medium tracking-wider uppercase">
-            Frontend Developer
+            Full-Stack Developer
           </p>
 
           <h1
