@@ -3,6 +3,28 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "MessageHub",
+
+    desc: "Full-stack real-time messaging platform with one-to-one & group chat, instant messaging, image sharing, online presence, seen status, and secure authentication.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "Pusher",
+      "Cloudinary",
+    ],
+
+    live: "https://message-hub-9sj2.vercel.app/",
+
+    code: "https://github.com/Amit81082/MessageHub",
+
+    image: "/projects/Messagehub.png",
+  },
+  {
     title: "Rentopia",
 
     desc: "Full-stack Airbnb-inspired rental platform with authentication, property listings, reservations, favorites, trip management, location search, maps integration, and responsive modern UI.",
@@ -68,19 +90,6 @@ const projects = [
     code: "https://github.com/Amit81082/Neftlix-calone",
 
     image: "/projects/NeftlixClone.png",
-  },
-  {
-    title: "Realtime Chat App",
-
-    desc: "Full-stack realtime chat app with instant messaging, image sharing, socket-based communication, and secure authentication.",
-
-    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Socket.io"],
-
-    live: "https://chat-app-nu-seven-97.vercel.app/",
-
-    code: "https://github.com/Amit81082/Chat-app",
-
-    image: "/projects/ChatApp.png",
   },
   {
     title: "Cartify E-Commerce",
