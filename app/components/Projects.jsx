@@ -5,7 +5,7 @@ const projects = [
   {
     title: "MessageHub",
 
-    desc: "Full-stack real-time messaging platform with one-to-one & group chat, instant messaging, image sharing, online presence, seen status, and secure authentication.",
+    desc: "Real-time messaging platform with one-to-one & group chat, instant messaging, image sharing, online presence, seen status, and secure authentication.",
 
     tech: [
       "Next.js",
@@ -18,16 +18,16 @@ const projects = [
       "Cloudinary",
     ],
 
-    live: "https://message-hub-9sj2.vercel.app/",
+    Live: "https://message-hub-9sj2.vercel.app/",
 
-    code: "https://github.com/Amit81082/MessageHub",
+    GitHub: "https://github.com/Amit81082/MessageHub",
 
     image: "/projects/Messagehub.png",
   },
   {
     title: "Rentopia",
 
-    desc: "Full-stack Airbnb-inspired rental platform with authentication, property listings, reservations, favorites, trip management, location search, maps integration, and responsive modern UI.",
+    desc: "Property booking platform inspired by Airbnb with authentication, property listings, reservations, favorites, trip management, location search, maps integration, and responsive modern UI.",
 
     tech: [
       "Next.js",
@@ -41,16 +41,16 @@ const projects = [
       "Axios",
     ],
 
-    live: "https://rentopia-ysvy.vercel.app/",
+    Live: "https://rentopia-ysvy.vercel.app/",
 
-    code: "https://github.com/Amit81082/Rentopia",
+    GitHub: "https://github.com/Amit81082/Rentopia",
 
     image: "/projects/Rentopia.png",
   },
   {
     title: "Twitter Clone",
 
-    desc: "Full-stack Twitter/X clone with authentication, tweet creation, comments, likes, follow system, notifications, profile management, and responsive modern UI.",
+    desc: " Full-stack Twitter clone with authentication, tweet creation, comments, likes, follow system, notifications, profile management, and responsive modern UI.",
 
     tech: [
       "Next.js",
@@ -63,9 +63,9 @@ const projects = [
       "Axios",
     ],
 
-    live: "https://twi-tter-calone.vercel.app/",
+    Live: "https://twi-tter-calone.vercel.app/",
 
-    code: "https://github.com/Amit81082/twi-tter-calone",
+    GitHub: "https://github.com/Amit81082/twi-tter-calone",
 
     image: "/projects/TwitterClone.png",
   },
@@ -85,9 +85,9 @@ const projects = [
       "Zustand",
     ],
 
-    live: "https://neftlix-calone-oxhp.vercel.app/",
+    Live: "https://neftlix-calone-oxhp.vercel.app/",
 
-    code: "https://github.com/Amit81082/Neftlix-calone",
+    GitHub: "https://github.com/Amit81082/Neftlix-calone",
 
     image: "/projects/NeftlixClone.png",
   },
@@ -97,8 +97,8 @@ const projects = [
 
     tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
 
-    live: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
-    code: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
+    LiveDemo: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
+    GitHub: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
 
     image: "/projects/cartify.png", // 👉 ADD IMAGE IN PUBLIC
   },
@@ -106,24 +106,24 @@ const projects = [
     title: "URL Shortener",
     desc: "Convert long URLs into short links, store them in database. And Ya, with proper authentication.",
     tech: ["Next.js", "MongoDB", "Tailwind"],
-    live: "https://url-shortner-86rw.vercel.app/",
-    code: "https://github.com/Amit81082/Url_shortner",
+    Live: "https://url-shortner-86rw.vercel.app/",
+    GitHub: "https://github.com/Amit81082/Url_shortner",
     image: "/projects/urlShortner.png",
   },
   {
     title: "Image Search Engine",
     desc: "Full-stack MERN application to search images from Unsplash with login via Google and GitHub.",
     tech: ["React", "Express.js", "MongoDB", "unsplash"],
-    live: "https://mern-image-search-pied.vercel.app/",
-    code: "https://github.com/Amit81082/Mern-Image-Search",
+    Live: "https://mern-image-search-pied.vercel.app/",
+    GitHub: "https://github.com/Amit81082/Mern-Image-Search",
     image: "/projects/image-search.png",
   },
   {
     title: "Password Locker",
     desc: "Store your passwords in a secure way.",
     tech: ["React", "Tailwind"],
-    live: "https://password-locker-e550f5.netlify.app/",
-    code: "https://github.com/Amit81082/password-locker",
+    Live: "https://password-locker-e550f5.netlify.app/",
+    GitHub: "https://github.com/Amit81082/password-locker",
     image: "/projects/password-locker.png",
   },
 ];
@@ -172,7 +172,7 @@ export default function Projects() {
                 <div className="flex gap-4">
                   <a
                     target="_blank"
-                    href={p.live}
+                    href={p.Live}
                     rel="noopener noreferrer"
                     className="px-4 py-2 text-sm rounded-xl bg-cyan-400 text-black font-semibold hover:opacity-90 transition"
                   >
@@ -180,11 +180,11 @@ export default function Projects() {
                   </a>
                   <a
                     target="_blank"
-                    href={p.code}
+                    href={p.GitHub}
                     rel="noopener noreferrer"
                     className="px-4 py-2 text-sm rounded-xl border border-white/20 hover:bg-white/10 transition"
                   >
-                    Code
+                    GitHub
                   </a>
                 </div>
               </div>

@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* 👉 Resume Button */}
           <a
-            href="/resume8.pdf"
+            href="/Amit_Maurya_Resume.pdf"
             target="_blank"
             className="px-4 py-2 rounded-xl bg-cyan-400 text-black text-sm font-semibold hover:bg-cyan-500 transition"
           >
@@ -97,7 +97,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="/resume8.pdf"
+              href="/Amit_Maurya_Resume.pdf"
               rel="noopener norefferer"
               target="_blank"
               className="w-fit px-4 py-2 rounded-xl bg-cyan-400 text-black text-sm font-semibold hover:bg-cyan-500 transition items-center"

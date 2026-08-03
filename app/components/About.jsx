@@ -13,7 +13,7 @@ export default function About() {
 
         {/* 👉 Updated Intro */}
         <p className="text-white/70 max-w-3xl mb-12 leading-relaxed">
-          I'm a Full-Stack Developer focused on building modern, responsive, and
+          I'm a Frontend Developer focused on building modern, responsive, and
           scalable web applications using Next.js, React, TypeScript, Tailwind
           CSS, Node.js, Express, MongoDB, Prisma, and NextAuth. I enjoy turning
           ideas into real-world products with clean UI, secure authentication,
@@ -28,7 +28,7 @@ export default function About() {
 
             {/* 🔥 Updated */}
             <h3 className="text-xl font-semibold mb-2">
-              Full-Stack Development
+              Frontend Development
             </h3>
 
             {/* 🔥 Updated */}

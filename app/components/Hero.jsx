@@ -11,10 +11,10 @@ export default function Hero() {
     const typed = new Typed(textRef.current, {
       // 🔥 CHANGED
       strings: [
-        "Full-Stack Developer",
-        "Next.js Developer",
-        "TypeScript Developer",
         "React Developer",
+        "Next.js Developer",
+        "Frontend Engineer",
+        "TypeScript Developer",
       ],
       typeSpeed: 60,
       backSpeed: 40,
@@ -35,7 +35,7 @@ export default function Hero() {
           {/* 🔥 CHANGED */}
 
           <p className="text-cyan-400 font-medium tracking-wider uppercase">
-            Full-Stack Developer
+            Frontend Developer
           </p>
 
           <h1
@@ -45,7 +45,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-xl md:text-2xl mt-4 text-white/90">
-            Building Modern Web Applications
+            Building Fast, Responsive & Production-Ready Web Applications
           </h2>
 
           <div className="mt-3 text-lg">
@@ -55,9 +55,9 @@ export default function Hero() {
           {/* 🔥 CHANGED */}
 
           <p className="mt-6 text-white/70 max-w-xl leading-relaxed">
-            I build scalable, responsive, and production-ready web applications
-            using React, Next.js, TypeScript, Node.js, MongoDB, Prisma, and
-            Tailwind CSS.
+            I build responsive, and production-ready web applications
+            using React, Next.js, TypeScript, Node.js, MongoDB, and Prisma with
+            a focus on great user experience and clean architecture.
           </p>
 
           {/* 👉 CTA */}
@@ -66,7 +66,7 @@ export default function Hero() {
               href="#projects"
               className="px-6 py-3 rounded-2xl bg-cyan-500 font-semibold hover:bg-cyan-600 transition"
             >
-              Explore Projects
+              View Projects
             </a>
 
             <a

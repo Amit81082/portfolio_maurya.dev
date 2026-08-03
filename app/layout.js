@@ -22,21 +22,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Amit Maurya | Full-Stack Developer",
+  title: "Amit Maurya | Frontend Developer",
   description:
-    "Amit Maurya is a Full-Stack Developer specializing in React and Next.js. View projects, skills, and contact.",
+    "Amit Maurya is a Frontend Developer specializing in React and Next.js. View projects, skills, and contact.",
   keywords: [
     "Amit Maurya",
-    "Full-Stack Developer",
+    "Frontend Developer",
     "React Developer",
     "Next.js Developer",
     "Web Developer Portfolio",
   ],
 
   openGraph: {
-    title: "Amit Maurya | Full-Stack Developer",
+    title: "Amit Maurya | Frontend Developer",
     description:
-      "Full-Stack Developer building modern web apps using React & Next.js",
+      "Frontend Developer building modern web apps using React & Next.js",
     url: "https://portfolio-maurya-dev.vercel.app/",
     siteName: "Amit Maurya Portfolio",
     images: [
@@ -53,9 +53,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Amit Maurya | Full-Stack Developer",
+    title: "Amit Maurya | Frontend Developer",
     description:
-      "Full-Stack Developer building modern web apps using React & Next.js",
+      "Frontend Developer building modern web apps using React & Next.js",
     images: ["/og.png"],
   },
 };
