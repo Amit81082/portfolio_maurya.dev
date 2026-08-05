@@ -48,6 +48,17 @@ const projects = [
     image: "/projects/Rentopia.png",
   },
   {
+    title: "Cartify E-Commerce",
+    desc: "Full-stack ecommerce app with cart, Razorpay payment, order management, and secure checkout flow.",
+
+    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
+
+    LiveDemo: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
+    GitHub: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
+
+    image: "/projects/cartify.png", // 👉 ADD IMAGE IN PUBLIC
+  },
+  {
     title: "Twitter Clone",
 
     desc: " Full-stack Twitter clone with authentication, tweet creation, comments, likes, follow system, notifications, profile management, and responsive modern UI.",
@@ -90,17 +101,6 @@ const projects = [
     GitHub: "https://github.com/Amit81082/Neftlix-calone",
 
     image: "/projects/NeftlixClone.png",
-  },
-  {
-    title: "Cartify E-Commerce",
-    desc: "Full-stack ecommerce app with cart, Razorpay payment, order management, and secure checkout flow.",
-
-    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
-
-    LiveDemo: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
-    GitHub: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
-
-    image: "/projects/cartify.png", // 👉 ADD IMAGE IN PUBLIC
   },
   {
     title: "URL Shortener",
