@@ -53,7 +53,7 @@ const projects = [
 
     tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
 
-    LiveDemo: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
+    Live: "https://cartify-e-commerce-gamma.vercel.app/", // 👉 UPDATE
     GitHub: "https://github.com/Amit81082/Cartify-E-commerce", // 👉 UPDATE
 
     image: "/projects/cartify.png", // 👉 ADD IMAGE IN PUBLIC
